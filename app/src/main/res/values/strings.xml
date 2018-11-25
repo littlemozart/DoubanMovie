@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">DoubanMovie</string>
+    <string name="status_loading">Loading</string>
+    <string name="status_empty">No Data</string>
+    <string name="status_error">Error</string>
+</resources>
