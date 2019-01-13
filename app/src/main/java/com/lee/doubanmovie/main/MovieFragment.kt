@@ -53,7 +53,7 @@ class MovieFragment : Fragment(), MovieContract.View {
         })
         presenter.start()
     }
-    
+
     override fun onDestroy() {
         super.onDestroy()
         presenter.release()

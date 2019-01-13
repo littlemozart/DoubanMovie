@@ -5,10 +5,11 @@ import android.util.AttributeSet
 import android.widget.ImageView
 import com.lee.doubanmovie.R
 
-class RatioFixedImageView: ImageView {
-    private var ratio = 1f
+class RatioFixedImageView : ImageView {
+    var ratio = 1f
         set(value) {
             field = value
+            requestLayout()
             invalidate()
         }
 
