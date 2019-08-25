@@ -92,6 +92,6 @@ class MovieFragment : Fragment(), MovieContract.View {
     }
 
     override fun setNoMoreData(noMore: Boolean) {
-        refresh_layout.setNoMoreData(noMore)
+        refresh_layout.resetNoMoreData()
     }
 }
